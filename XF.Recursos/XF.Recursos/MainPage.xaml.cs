@@ -74,6 +74,26 @@ namespace XF.Recursos
         {
             await Navigation.PushAsync(new Lista.ListaCards());
         }
+        private async void btnMestre_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Menu.MainPage());
+        }
+        private async void btnTemplate_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Theme.ThemeView());
+        }
+        private async void btnHome_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PassParameter.HomeView(DateTime.Now.ToString("u")));
+        }
+        private async void btnMC_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PassParameter.MCHomeView());
+        }
+        private async void btnEtiqueta_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Lista.ListaEtiquetaView());
+        }
         #endregion
     }
 }
