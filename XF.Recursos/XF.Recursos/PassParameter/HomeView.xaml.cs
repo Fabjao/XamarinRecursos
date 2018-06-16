@@ -22,7 +22,6 @@ namespace XF.Recursos.PassParameter
 
             lblData.Text = paramData;
         }
-
         private async void btnDetalhe_Clicked(object sender, EventArgs e)
         {
             var contato = new Contato
@@ -37,6 +36,5 @@ namespace XF.Recursos.PassParameter
             detalhePage.BindingContext = contato;
             await Navigation.PushModalAsync(detalhePage);
         }
-
-	}
+    }
 }

@@ -11,8 +11,8 @@
 namespace XF.Recursos.Estilo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\Estilo\\DinamicoView.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\Estilo\\DinamicoVie" +
+        "w.xaml")]
     public partial class DinamicoView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

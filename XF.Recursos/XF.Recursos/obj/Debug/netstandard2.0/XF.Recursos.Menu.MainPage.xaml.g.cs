@@ -11,7 +11,8 @@
 namespace XF.Recursos.Menu {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\Menu\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\Menu\\MainPage.xaml" +
+        "")]
     public partial class MainPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

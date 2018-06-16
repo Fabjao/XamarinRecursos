@@ -387,11 +387,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj",
+      "projectUniqueName": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj",
       "projectName": "XF.Recursos",
-      "projectPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj",
+      "projectPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj",
       "packagesPath": "C:\\Users\\logonrm\\.nuget\\packages\\",
-      "outputPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\obj\\",
+      "outputPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

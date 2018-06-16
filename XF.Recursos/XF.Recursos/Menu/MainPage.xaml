@@ -4,7 +4,7 @@
              xmlns:menu="clr-namespace:XF.Recursos.Menu"
              x:Class="XF.Recursos.Menu.MainPage"
              MasterBehavior="Popover" >
-
+    
     <MasterDetailPage.Master>
         <menu:MenuView x:Name="menuPage" />
     </MasterDetailPage.Master>

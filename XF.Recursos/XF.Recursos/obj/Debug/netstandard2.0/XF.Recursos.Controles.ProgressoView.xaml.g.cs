@@ -11,8 +11,8 @@
 namespace XF.Recursos.Controles {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\Controles\\ProgressoVi" +
-        "ew.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\Controles\\Progress" +
+        "oView.xaml")]
     public partial class ProgressoView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -36,6 +36,18 @@ namespace XF.Recursos
         {
             await Navigation.PushAsync(new Controles.StepperView());
         }
+        private async void btnCustom_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CustomView.CustomView());
+        }
+        private async void btnLigar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new API.PhoneView());
+        }
+        private async void btnLocation_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GPS.CoordernadaView());
+        }
         #endregion
 
         #region Estilo
@@ -74,14 +86,27 @@ namespace XF.Recursos
         {
             await Navigation.PushAsync(new Lista.ListaCards());
         }
+        private async void btnEtiqueta_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Lista.ListaEtiquetaView());
+        }
+        #endregion
+
+        #region Menu
         private async void btnMestre_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Menu.MainPage());
         }
+        #endregion
+
+        #region Theme
         private async void btnTemplate_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Theme.ThemeView());
         }
+        #endregion
+
+        #region PassParameter
         private async void btnHome_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new PassParameter.HomeView(DateTime.Now.ToString("u")));
@@ -89,10 +114,6 @@ namespace XF.Recursos
         private async void btnMC_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new PassParameter.MCHomeView());
-        }
-        private async void btnEtiqueta_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Lista.ListaEtiquetaView());
         }
         #endregion
     }

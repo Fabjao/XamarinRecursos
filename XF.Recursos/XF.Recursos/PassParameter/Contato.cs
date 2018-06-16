@@ -4,7 +4,7 @@ using System.Text;
 
 namespace XF.Recursos.PassParameter
 {
-   public class Contato
+    public class Contato
     {
         public string Nome { get; set; }
         public int Idade { get; set; }

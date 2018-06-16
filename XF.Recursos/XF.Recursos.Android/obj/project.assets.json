@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "MonoAndroid,Version=v8.0": {
+    "MonoAndroid,Version=v7.1": {
       "Xamarin.Android.Support.Animated.Vector.Drawable/25.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -289,6 +289,12 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "xamstore-xamarin.mobile/0.7.1": {
+        "type": "package",
+        "build": {
+          "build/monoandroid/xamstore-xamarin.mobile.props": {}
         }
       },
       "XF.Recursos/1.0.0": {
@@ -685,6 +691,18 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "xamstore-xamarin.mobile/0.7.1": {
+      "sha512": "YAmSmzkK6+v/ODKhsRfCOVkVcoAC+Q0y6IEogCzuPVxF+eiUUvD91V8YZm/Tc8N0lBugxXog8QtR9ucOb6cuWQ==",
+      "type": "package",
+      "path": "xamstore-xamarin.mobile/0.7.1",
+      "files": [
+        "README.txt",
+        "build/monoandroid/xamstore-xamarin.mobile.props",
+        "build/monotouch/xamstore-xamarin.mobile.props",
+        "xamstore-xamarin.mobile.0.7.1.nupkg.sha512",
+        "xamstore-xamarin.mobile.nuspec"
+      ]
+    },
     "XF.Recursos/1.0.0": {
       "type": "project",
       "path": "../XF.Recursos/XF.Recursos.csproj",
@@ -692,14 +710,15 @@
     }
   },
   "projectFileDependencyGroups": {
-    "MonoAndroid,Version=v8.0": [
+    "MonoAndroid,Version=v7.1": [
       "XF.Recursos >= 1.0.0",
       "Xamarin.Android.Support.Design >= 25.4.0.2",
       "Xamarin.Android.Support.v4 >= 25.4.0.2",
       "Xamarin.Android.Support.v7.AppCompat >= 25.4.0.2",
       "Xamarin.Android.Support.v7.CardView >= 25.4.0.2",
       "Xamarin.Android.Support.v7.MediaRouter >= 25.4.0.2",
-      "Xamarin.Forms >= 2.5.0.122203"
+      "Xamarin.Forms >= 2.5.0.122203",
+      "xamstore-xamarin.mobile >= 0.7.1"
     ]
   },
   "packageFolders": {
@@ -709,11 +728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos.Android\\XF.Recursos.Android.csproj",
+      "projectUniqueName": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos.Android\\XF.Recursos.Android.csproj",
       "projectName": "XF.Recursos.Android",
-      "projectPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos.Android\\XF.Recursos.Android.csproj",
+      "projectPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos.Android\\XF.Recursos.Android.csproj",
       "packagesPath": "C:\\Users\\logonrm\\.nuget\\packages\\",
-      "outputPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos.Android\\obj\\",
+      "outputPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -725,24 +744,24 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
-        "monoandroid80"
+        "monoandroid71"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "monoandroid80": {
+        "monoandroid71": {
           "projectReferences": {
-            "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj": {
-              "projectPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj"
+            "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj": {
+              "projectPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj"
             }
           }
         }
       }
     },
     "frameworks": {
-      "monoandroid80": {
+      "monoandroid71": {
         "dependencies": {
           "Xamarin.Android.Support.Design": {
             "target": "Package",
@@ -767,6 +786,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[2.5.0.122203, )"
+          },
+          "xamstore-xamarin.mobile": {
+            "target": "Package",
+            "version": "[0.7.1, )"
           }
         }
       }

@@ -37,11 +37,12 @@ namespace XF.Recursos.PassParameter
         {
             var detalhe = new MCDetalheView();
             await Navigation.PushAsync(detalhe);
+
             var contato = new Contato
             {
-                Nome = "Fabio Gonçalves",
+                Nome = "Rafael dos Santos",
                 Idade = 32,
-                Profissao = "Analista",
+                Profissao = "Lutador",
                 Pais = "Brasil"
             };
 

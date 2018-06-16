@@ -125,6 +125,9 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "xamstore-xamarin.mobile/0.7.1": {
+        "type": "package"
+      },
       "XF.Recursos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -262,6 +265,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "xamstore-xamarin.mobile/0.7.1": {
+        "type": "package"
       },
       "XF.Recursos/1.0.0": {
         "type": "project",
@@ -401,6 +407,9 @@
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
       },
+      "xamstore-xamarin.mobile/0.7.1": {
+        "type": "package"
+      },
       "XF.Recursos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -538,6 +547,9 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
+      },
+      "xamstore-xamarin.mobile/0.7.1": {
+        "type": "package"
       },
       "XF.Recursos/1.0.0": {
         "type": "project",
@@ -737,6 +749,18 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "xamstore-xamarin.mobile/0.7.1": {
+      "sha512": "YAmSmzkK6+v/ODKhsRfCOVkVcoAC+Q0y6IEogCzuPVxF+eiUUvD91V8YZm/Tc8N0lBugxXog8QtR9ucOb6cuWQ==",
+      "type": "package",
+      "path": "xamstore-xamarin.mobile/0.7.1",
+      "files": [
+        "README.txt",
+        "build/monoandroid/xamstore-xamarin.mobile.props",
+        "build/monotouch/xamstore-xamarin.mobile.props",
+        "xamstore-xamarin.mobile.0.7.1.nupkg.sha512",
+        "xamstore-xamarin.mobile.nuspec"
+      ]
+    },
     "XF.Recursos/1.0.0": {
       "type": "project",
       "path": "../XF.Recursos/XF.Recursos.csproj",
@@ -746,7 +770,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "XF.Recursos >= 1.0.0",
-      "Xamarin.Forms >= 2.5.0.122203"
+      "Xamarin.Forms >= 2.5.0.122203",
+      "xamstore-xamarin.mobile >= 0.7.1"
     ]
   },
   "packageFolders": {
@@ -756,11 +781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos.iOS\\XF.Recursos.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos.iOS\\XF.Recursos.iOS.csproj",
       "projectName": "XF.Recursos.iOS",
-      "projectPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos.iOS\\XF.Recursos.iOS.csproj",
+      "projectPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos.iOS\\XF.Recursos.iOS.csproj",
       "packagesPath": "C:\\Users\\logonrm\\.nuget\\packages\\",
-      "outputPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos.iOS\\obj\\",
+      "outputPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -781,8 +806,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj": {
-              "projectPath": "D:\\12NET\\Workspace\\Code\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj"
+            "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj": {
+              "projectPath": "C:\\Users\\logonrm\\Downloads\\XF.Recursos\\XF.Recursos\\XF.Recursos\\XF.Recursos.csproj"
             }
           }
         }
@@ -794,6 +819,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[2.5.0.122203, )"
+          },
+          "xamstore-xamarin.mobile": {
+            "target": "Package",
+            "version": "[0.7.1, )"
           }
         }
       }

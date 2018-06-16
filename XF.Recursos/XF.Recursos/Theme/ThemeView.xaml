@@ -4,11 +4,13 @@
              xmlns:template="clr-namespace:XF.Recursos.Theme"
              x:Class="XF.Recursos.Theme.ThemeView"
              NavigationPage.HasNavigationBar="False">
+
     <ContentPage.BindingContext>
         <template:ThemeViewModel />
     </ContentPage.BindingContext>
 
-    <ContentView x:Name="contentView" ControlTemplate="{StaticResource FuchsiaTemplate}">
+    <ContentView x:Name="contentView" 
+                 ControlTemplate="{StaticResource FuchsiaTemplate}">
         <StackLayout VerticalOptions="CenterAndExpand">
             <Label Text="Aplicativo Xamarin" HorizontalOptions="Center" />
             <Button Text="Alterar Theme" Clicked="OnButtonClicked" />

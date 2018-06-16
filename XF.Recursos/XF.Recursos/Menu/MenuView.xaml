@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XF.Recursos.Menu.MenuView"
              Title="Menu">
+    
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="lstMenu" SeparatorVisibility="None">
+            <ListView x:Name="lstMenu" 
+                      SeparatorVisibility="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell Text="{Binding Descricao}" 
@@ -15,4 +17,5 @@
             </ListView>
         </StackLayout>
     </ContentPage.Content>
+    
 </ContentPage>

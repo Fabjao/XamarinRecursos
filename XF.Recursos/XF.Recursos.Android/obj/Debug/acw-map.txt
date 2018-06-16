@@ -1,7 +1,19 @@
+XF.Recursos.Droid.FiapBoxViewRenderer, XF.Recursos.Android;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapBoxViewRenderer
+XF.Recursos.Droid.FiapBoxViewRenderer, XF.Recursos.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapBoxViewRenderer
+XF.Recursos.Droid.FiapBoxViewRenderer;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapBoxViewRenderer
+xf.recursos.droid.FiapBoxViewRenderer;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapBoxViewRenderer
+XF.Recursos.Droid.FiapButtonRenderer, XF.Recursos.Android;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapButtonRenderer
+XF.Recursos.Droid.FiapButtonRenderer, XF.Recursos.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapButtonRenderer
+XF.Recursos.Droid.FiapButtonRenderer;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapButtonRenderer
+xf.recursos.droid.FiapButtonRenderer;md5ee710abd4c2fbb17e7199fe6f99120e0.FiapButtonRenderer
 XF.Recursos.Droid.MainActivity, XF.Recursos.Android;md5ee710abd4c2fbb17e7199fe6f99120e0.MainActivity
 XF.Recursos.Droid.MainActivity, XF.Recursos.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ee710abd4c2fbb17e7199fe6f99120e0.MainActivity
 XF.Recursos.Droid.MainActivity;md5ee710abd4c2fbb17e7199fe6f99120e0.MainActivity
 xf.recursos.droid.MainActivity;md5ee710abd4c2fbb17e7199fe6f99120e0.MainActivity
+XF.Recursos.Droid.MainApplication, XF.Recursos.Android;md5ee710abd4c2fbb17e7199fe6f99120e0.MainApplication
+XF.Recursos.Droid.MainApplication, XF.Recursos.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ee710abd4c2fbb17e7199fe6f99120e0.MainApplication
+XF.Recursos.Droid.MainApplication;md5ee710abd4c2fbb17e7199fe6f99120e0.MainApplication
+xf.recursos.droid.MainApplication;md5ee710abd4c2fbb17e7199fe6f99120e0.MainApplication
 Android.Support.V4.Widget.SearchViewCompat/IOnCloseListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat+IOnCloseListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
 Android.Support.V4.Widget.SearchViewCompat.IOnCloseListenerImplementor;mono.android.support.v4.widget.SearchViewCompat_OnCloseListenerImplementor
@@ -666,3 +678,19 @@ Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Fo
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 xamarin.forms.platform.android.appcompat.FormsFragmentPagerAdapter_1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
+Xamarin.AsyncQuery`1, Xamarin.Mobile;md5ec31a990cf5451cf96df51948e17f720.AsyncQuery_1
+Xamarin.AsyncQuery`1, Xamarin.Mobile, Version=0.7.1.0, Culture=neutral, PublicKeyToken=null;md5ec31a990cf5451cf96df51948e17f720.AsyncQuery_1
+Xamarin.AsyncQuery`1;md5ec31a990cf5451cf96df51948e17f720.AsyncQuery_1
+xamarin.AsyncQuery_1;md5ec31a990cf5451cf96df51948e17f720.AsyncQuery_1
+Xamarin.Geolocation.GeolocationContinuousListener, Xamarin.Mobile;md523429f28dd02a990195829ee70069e82.GeolocationContinuousListener
+Xamarin.Geolocation.GeolocationContinuousListener, Xamarin.Mobile, Version=0.7.1.0, Culture=neutral, PublicKeyToken=null;md523429f28dd02a990195829ee70069e82.GeolocationContinuousListener
+Xamarin.Geolocation.GeolocationContinuousListener;md523429f28dd02a990195829ee70069e82.GeolocationContinuousListener
+xamarin.geolocation.GeolocationContinuousListener;md523429f28dd02a990195829ee70069e82.GeolocationContinuousListener
+Xamarin.Geolocation.GeolocationSingleListener, Xamarin.Mobile;md523429f28dd02a990195829ee70069e82.GeolocationSingleListener
+Xamarin.Geolocation.GeolocationSingleListener, Xamarin.Mobile, Version=0.7.1.0, Culture=neutral, PublicKeyToken=null;md523429f28dd02a990195829ee70069e82.GeolocationSingleListener
+Xamarin.Geolocation.GeolocationSingleListener;md523429f28dd02a990195829ee70069e82.GeolocationSingleListener
+xamarin.geolocation.GeolocationSingleListener;md523429f28dd02a990195829ee70069e82.GeolocationSingleListener
+Xamarin.Media.MediaPickerActivity, Xamarin.Mobile;md50575d4ab16fc336ade1879255cf984b5.MediaPickerActivity
+Xamarin.Media.MediaPickerActivity, Xamarin.Mobile, Version=0.7.1.0, Culture=neutral, PublicKeyToken=null;md50575d4ab16fc336ade1879255cf984b5.MediaPickerActivity
+Xamarin.Media.MediaPickerActivity;md50575d4ab16fc336ade1879255cf984b5.MediaPickerActivity
+xamarin.media.MediaPickerActivity;md50575d4ab16fc336ade1879255cf984b5.MediaPickerActivity

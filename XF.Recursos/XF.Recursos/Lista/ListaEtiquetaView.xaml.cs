@@ -100,8 +100,6 @@ namespace XF.Recursos.Lista
             new ItemNaLista ("Anderson Silva"),
             new ItemNaLista ("Conor McGregor"),
             new ItemNaLista ("Vanderlei Silva"),
-            new ItemNaLista ("Fabio Gonçalves"),
-            new ItemNaLista ("Fernanda Souza"),
             new ItemNaLista ("José Aldo"),
             new ItemNaLista ("Amanda Nunes"),
             new ItemNaLista ("Daniel Cormier"),

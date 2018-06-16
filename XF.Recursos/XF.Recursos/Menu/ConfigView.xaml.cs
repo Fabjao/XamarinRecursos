@@ -12,7 +12,7 @@ namespace XF.Recursos.Menu
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ConfigView : ContentPage
 	{
-		public ConfigView()
+		public ConfigView ()
 		{
 			InitializeComponent ();
 		}
